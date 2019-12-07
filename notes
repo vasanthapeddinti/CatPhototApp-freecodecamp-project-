@@ -1,1 +1,5 @@
-
+CSS is case sensitive. It allows control over color, fonts, positioning, spacing, sizing, decorations,transitions
+3 ways to apply styling:
+  1. Apply inline styles directly to HTML elements using style attribute.
+  2. Place CSS rules within style tags
+  3. Write CSS rules in an external style sheet and reference in html document 
