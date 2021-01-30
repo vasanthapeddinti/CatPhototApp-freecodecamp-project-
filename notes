@@ -1,3 +1,67 @@
+This project has concepts of html5 
+
+1. html elements h1-main heading, h2-sub heading, h3..h6
+2. p element is the paragraph
+3. html element has a opening tag and closing tag
+4. comment in the html is <!-- and -->
+5. HTML5 introduces more descriptive HTML tags. These include main, header, footer, nav, video, article, section and others.
+6. image cab be attached using <img> element with addition of src="<url-name>" and alt="message to print if the image cannot load"
+7. a (anchor) elements link to content outside of your web page.a elements need a destination web address called an href attribute. They also need anchor text.
+   Ex: <a href="https://freecodecamp.org">this links to freecodecamp.org</a>
+8. a (anchor) elements can also be used to create internal links to jump to different sections within a webpage
+9. To create an internal link, you assign a link's href attribute to a hash symbol # plus the value of the id attribute for the
+   element that you want to internally link to, usually further down the page. You then need to add the same id attribute to 
+   the element you are linking to. An id is an attribute that uniquely describes an element.
+      Ex: <a href="#contacts-header">Contacts</a>
+      ...
+      <h2 id="contacts-header">Contacts</h2>
+10. HTML has another special element for creating ordered lists, or numbered lists.
+         Ex: <ol>
+                <li>Garfield</li>
+                <li>Sylvester</li>
+             </ol>
+     For unordered (bullted), it is <ul> instead of <ol>
+11. You can create a text input like this:
+
+      <input type="text">
+12. You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an action on your form element.
+
+For example:
+
+<form action="/url-where-you-want-to-submit-form-data"></form>
+13. Radio buttons are a type of input. Each of your radio buttons can be nested within its own label element. By wrapping an input element inside of a label element it will automatically associate the radio button input with the label element surrounding it.
+All related radio buttons should have the same name attribute to create a radio button group.
+ Ex: <label for="indoor"> 
+      <input id="indoor" type="radio" name="indoor-outdoor">Indoor 
+     </label>
+When a form gets submitted, the data is sent to the server and includes entries for the options selected. Inputs of type radio and checkbox report their values from the value attribute.
+14. The div element, also known as a division element, is a general purpose container for other elements. Most used html5 element
+15. At the top of your document, you need to tell the browser which version of HTML your page is using.
+         <!DOCTYPE html>
+            <html>
+             <h1>
+               Hard work works Hard
+              </h1>
+            </html>
+16. You can add another level of organization in your HTML document within the html tags with the head and body elements. Any markup with information about your page would go into the head tag. Then any markup with the content of the page (what displays for a user) would go into the body tag.
+   Metadata elements, such as link, meta, title, and style, typically go inside the head element.
+   Ex: 
+   <!DOCTYPE html>
+<html>
+  <head>
+    <!-- metadata elements -->
+  </head>
+  <body>
+    <!-- page contents -->
+  </body>
+</html>
+
+
+
+
+
+
+
 CSS is case sensitive. It allows control over color, fonts, positioning, spacing, sizing, decorations,transitions
 3 ways to apply styling:
   1. Apply inline styles directly to HTML elements using style attribute.
